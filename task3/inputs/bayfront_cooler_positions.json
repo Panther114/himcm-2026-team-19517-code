@@ -1,0 +1,566 @@
+[
+ {
+  "name": "cooler_candidate_S1_000",
+  "section": "S1",
+  "x": 17,
+  "y": 8
+ },
+ {
+  "name": "cooler_candidate_S1_001",
+  "section": "S1",
+  "x": 17,
+  "y": 20
+ },
+ {
+  "name": "cooler_candidate_S1_002",
+  "section": "S1",
+  "x": 17,
+  "y": 32
+ },
+ {
+  "name": "cooler_candidate_S1_003",
+  "section": "S1",
+  "x": 17,
+  "y": 44
+ },
+ {
+  "name": "cooler_candidate_S1_004",
+  "section": "S1",
+  "x": 17,
+  "y": 56
+ },
+ {
+  "name": "cooler_candidate_S1_005",
+  "section": "S1",
+  "x": 29,
+  "y": 8
+ },
+ {
+  "name": "cooler_candidate_S1_006",
+  "section": "S1",
+  "x": 29,
+  "y": 20
+ },
+ {
+  "name": "cooler_candidate_S1_007",
+  "section": "S1",
+  "x": 29,
+  "y": 32
+ },
+ {
+  "name": "cooler_candidate_S1_008",
+  "section": "S1",
+  "x": 29,
+  "y": 44
+ },
+ {
+  "name": "cooler_candidate_S1_009",
+  "section": "S1",
+  "x": 29,
+  "y": 56
+ },
+ {
+  "name": "cooler_candidate_S1_010",
+  "section": "S1",
+  "x": 41,
+  "y": 20
+ },
+ {
+  "name": "cooler_candidate_S1_011",
+  "section": "S1",
+  "x": 41,
+  "y": 32
+ },
+ {
+  "name": "cooler_candidate_S1_012",
+  "section": "S1",
+  "x": 41,
+  "y": 44
+ },
+ {
+  "name": "cooler_candidate_S1_013",
+  "section": "S1",
+  "x": 41,
+  "y": 56
+ },
+ {
+  "name": "cooler_candidate_S1_014",
+  "section": "S1",
+  "x": 53,
+  "y": 20
+ },
+ {
+  "name": "cooler_candidate_S1_015",
+  "section": "S1",
+  "x": 53,
+  "y": 32
+ },
+ {
+  "name": "cooler_candidate_S1_016",
+  "section": "S1",
+  "x": 53,
+  "y": 44
+ },
+ {
+  "name": "cooler_candidate_S1_017",
+  "section": "S1",
+  "x": 53,
+  "y": 56
+ },
+ {
+  "name": "cooler_candidate_S1_018",
+  "section": "S1",
+  "x": 65,
+  "y": 32
+ },
+ {
+  "name": "cooler_candidate_S1_019",
+  "section": "S1",
+  "x": 65,
+  "y": 44
+ },
+ {
+  "name": "cooler_candidate_S1_020",
+  "section": "S1",
+  "x": 65,
+  "y": 56
+ },
+ {
+  "name": "cooler_candidate_S2_021",
+  "section": "S2",
+  "x": 17,
+  "y": 80
+ },
+ {
+  "name": "cooler_candidate_S2_022",
+  "section": "S2",
+  "x": 17,
+  "y": 92
+ },
+ {
+  "name": "cooler_candidate_S2_023",
+  "section": "S2",
+  "x": 17,
+  "y": 104
+ },
+ {
+  "name": "cooler_candidate_S2_024",
+  "section": "S2",
+  "x": 17,
+  "y": 116
+ },
+ {
+  "name": "cooler_candidate_S2_025",
+  "section": "S2",
+  "x": 17,
+  "y": 128
+ },
+ {
+  "name": "cooler_candidate_S2_026",
+  "section": "S2",
+  "x": 17,
+  "y": 140
+ },
+ {
+  "name": "cooler_candidate_S2_027",
+  "section": "S2",
+  "x": 17,
+  "y": 152
+ },
+ {
+  "name": "cooler_candidate_S2_028",
+  "section": "S2",
+  "x": 29,
+  "y": 80
+ },
+ {
+  "name": "cooler_candidate_S2_029",
+  "section": "S2",
+  "x": 29,
+  "y": 92
+ },
+ {
+  "name": "cooler_candidate_S2_030",
+  "section": "S2",
+  "x": 29,
+  "y": 104
+ },
+ {
+  "name": "cooler_candidate_S2_031",
+  "section": "S2",
+  "x": 29,
+  "y": 116
+ },
+ {
+  "name": "cooler_candidate_S2_032",
+  "section": "S2",
+  "x": 29,
+  "y": 128
+ },
+ {
+  "name": "cooler_candidate_S2_033",
+  "section": "S2",
+  "x": 29,
+  "y": 140
+ },
+ {
+  "name": "cooler_candidate_S2_034",
+  "section": "S2",
+  "x": 41,
+  "y": 80
+ },
+ {
+  "name": "cooler_candidate_S2_035",
+  "section": "S2",
+  "x": 41,
+  "y": 92
+ },
+ {
+  "name": "cooler_candidate_S2_036",
+  "section": "S2",
+  "x": 41,
+  "y": 104
+ },
+ {
+  "name": "cooler_candidate_S2_037",
+  "section": "S2",
+  "x": 41,
+  "y": 116
+ },
+ {
+  "name": "cooler_candidate_S2_038",
+  "section": "S2",
+  "x": 41,
+  "y": 128
+ },
+ {
+  "name": "cooler_candidate_S2_039",
+  "section": "S2",
+  "x": 41,
+  "y": 140
+ },
+ {
+  "name": "cooler_candidate_S2_040",
+  "section": "S2",
+  "x": 53,
+  "y": 80
+ },
+ {
+  "name": "cooler_candidate_S2_041",
+  "section": "S2",
+  "x": 53,
+  "y": 92
+ },
+ {
+  "name": "cooler_candidate_S2_042",
+  "section": "S2",
+  "x": 53,
+  "y": 104
+ },
+ {
+  "name": "cooler_candidate_S2_043",
+  "section": "S2",
+  "x": 53,
+  "y": 116
+ },
+ {
+  "name": "cooler_candidate_S2_044",
+  "section": "S2",
+  "x": 53,
+  "y": 128
+ },
+ {
+  "name": "cooler_candidate_S2_045",
+  "section": "S2",
+  "x": 53,
+  "y": 140
+ },
+ {
+  "name": "cooler_candidate_S2_046",
+  "section": "S2",
+  "x": 53,
+  "y": 152
+ },
+ {
+  "name": "cooler_candidate_S2_047",
+  "section": "S2",
+  "x": 65,
+  "y": 80
+ },
+ {
+  "name": "cooler_candidate_S2_048",
+  "section": "S2",
+  "x": 65,
+  "y": 92
+ },
+ {
+  "name": "cooler_candidate_S2_049",
+  "section": "S2",
+  "x": 65,
+  "y": 104
+ },
+ {
+  "name": "cooler_candidate_S2_050",
+  "section": "S2",
+  "x": 65,
+  "y": 116
+ },
+ {
+  "name": "cooler_candidate_S2_051",
+  "section": "S2",
+  "x": 65,
+  "y": 128
+ },
+ {
+  "name": "cooler_candidate_S2_052",
+  "section": "S2",
+  "x": 65,
+  "y": 140
+ },
+ {
+  "name": "cooler_candidate_S2_053",
+  "section": "S2",
+  "x": 65,
+  "y": 152
+ },
+ {
+  "name": "cooler_candidate_S4_054",
+  "section": "S4",
+  "x": 89,
+  "y": 80
+ },
+ {
+  "name": "cooler_candidate_S4_055",
+  "section": "S4",
+  "x": 89,
+  "y": 92
+ },
+ {
+  "name": "cooler_candidate_S4_056",
+  "section": "S4",
+  "x": 89,
+  "y": 104
+ },
+ {
+  "name": "cooler_candidate_S4_057",
+  "section": "S4",
+  "x": 89,
+  "y": 116
+ },
+ {
+  "name": "cooler_candidate_S4_058",
+  "section": "S4",
+  "x": 89,
+  "y": 128
+ },
+ {
+  "name": "cooler_candidate_S4_059",
+  "section": "S4",
+  "x": 89,
+  "y": 140
+ },
+ {
+  "name": "cooler_candidate_S4_060",
+  "section": "S4",
+  "x": 89,
+  "y": 152
+ },
+ {
+  "name": "cooler_candidate_S4_061",
+  "section": "S4",
+  "x": 101,
+  "y": 80
+ },
+ {
+  "name": "cooler_candidate_S4_062",
+  "section": "S4",
+  "x": 101,
+  "y": 92
+ },
+ {
+  "name": "cooler_candidate_S4_063",
+  "section": "S4",
+  "x": 101,
+  "y": 104
+ },
+ {
+  "name": "cooler_candidate_S4_064",
+  "section": "S4",
+  "x": 101,
+  "y": 116
+ },
+ {
+  "name": "cooler_candidate_S4_065",
+  "section": "S4",
+  "x": 101,
+  "y": 128
+ },
+ {
+  "name": "cooler_candidate_S4_066",
+  "section": "S4",
+  "x": 101,
+  "y": 140
+ },
+ {
+  "name": "cooler_candidate_S4_067",
+  "section": "S4",
+  "x": 101,
+  "y": 152
+ },
+ {
+  "name": "cooler_candidate_S4_068",
+  "section": "S4",
+  "x": 113,
+  "y": 80
+ },
+ {
+  "name": "cooler_candidate_S4_069",
+  "section": "S4",
+  "x": 113,
+  "y": 92
+ },
+ {
+  "name": "cooler_candidate_S4_070",
+  "section": "S4",
+  "x": 113,
+  "y": 104
+ },
+ {
+  "name": "cooler_candidate_S4_071",
+  "section": "S4",
+  "x": 113,
+  "y": 116
+ },
+ {
+  "name": "cooler_candidate_S4_072",
+  "section": "S4",
+  "x": 113,
+  "y": 128
+ },
+ {
+  "name": "cooler_candidate_S4_073",
+  "section": "S4",
+  "x": 113,
+  "y": 140
+ },
+ {
+  "name": "cooler_candidate_S4_074",
+  "section": "S4",
+  "x": 113,
+  "y": 152
+ },
+ {
+  "name": "cooler_candidate_S4_075",
+  "section": "S4",
+  "x": 125,
+  "y": 80
+ },
+ {
+  "name": "cooler_candidate_S4_076",
+  "section": "S4",
+  "x": 125,
+  "y": 92
+ },
+ {
+  "name": "cooler_candidate_S4_077",
+  "section": "S4",
+  "x": 125,
+  "y": 104
+ },
+ {
+  "name": "cooler_candidate_S4_078",
+  "section": "S4",
+  "x": 125,
+  "y": 116
+ },
+ {
+  "name": "cooler_candidate_S4_079",
+  "section": "S4",
+  "x": 125,
+  "y": 128
+ },
+ {
+  "name": "cooler_candidate_S4_080",
+  "section": "S4",
+  "x": 125,
+  "y": 140
+ },
+ {
+  "name": "cooler_candidate_S3_081",
+  "section": "S3",
+  "x": 89,
+  "y": 32
+ },
+ {
+  "name": "cooler_candidate_S3_082",
+  "section": "S3",
+  "x": 89,
+  "y": 44
+ },
+ {
+  "name": "cooler_candidate_S3_083",
+  "section": "S3",
+  "x": 89,
+  "y": 56
+ },
+ {
+  "name": "cooler_candidate_S3_084",
+  "section": "S3",
+  "x": 101,
+  "y": 32
+ },
+ {
+  "name": "cooler_candidate_S3_085",
+  "section": "S3",
+  "x": 101,
+  "y": 44
+ },
+ {
+  "name": "cooler_candidate_S3_086",
+  "section": "S3",
+  "x": 101,
+  "y": 56
+ },
+ {
+  "name": "cooler_candidate_S3_087",
+  "section": "S3",
+  "x": 113,
+  "y": 32
+ },
+ {
+  "name": "cooler_candidate_S3_088",
+  "section": "S3",
+  "x": 113,
+  "y": 44
+ },
+ {
+  "name": "cooler_candidate_S3_089",
+  "section": "S3",
+  "x": 113,
+  "y": 56
+ },
+ {
+  "name": "cooler_candidate_S3_090",
+  "section": "S3",
+  "x": 125,
+  "y": 20
+ },
+ {
+  "name": "cooler_candidate_S3_091",
+  "section": "S3",
+  "x": 125,
+  "y": 32
+ },
+ {
+  "name": "cooler_candidate_S3_092",
+  "section": "S3",
+  "x": 125,
+  "y": 44
+ },
+ {
+  "name": "cooler_candidate_S3_093",
+  "section": "S3",
+  "x": 125,
+  "y": 56
+ }
+]

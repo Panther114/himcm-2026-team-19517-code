@@ -1,0 +1,6 @@
+building_type,citation_key,standard,table,section_group,occupancy_category,default_density,unit_basis,rho_peak,phi_source,phi_citation_key,note
+classroom,ASHRAE62_1_2022,ASHRAE 62.1-2022,Table 6-1,Educational Facilities,Classrooms (age 9 plus),35,ashrae_si_column,0.35,GBOBD,DONG2022_SCDATA,"Standard secondary-school/adult classroom; primary-school row would be 25."
+office,ASHRAE62_1_2022,ASHRAE 62.1-2022,Table 6-1,Office Buildings,Office space,5,ashrae_si_column,0.05,GBOBD,DONG2022_SCDATA,"Direct match to the standard's Office space row."
+multifamily housing,CA_T24_2025,CA Title 24 Part 6 (2025),Table 120.1-A,"Hotels, Motels, Resorts, Dormitories",Bedroom/living room,3,title24_design_number,0.03,GBOBD,DONG2022_SCDATA,"Sleeping/living area is the closest published residential density; 62.1 has no dwelling-unit row."
+others,CA_T24_2025,CA Title 24 Part 6 (2025),Table 120.1-A,Miscellaneous Spaces,All others,5,title24_design_number,0.05,flat_assumption,,"Catch-all type; no GBOBD schedule exists, so phi=1 is an assumption."
+senior center,CA_T24_2025,CA Title 24 Part 6 (2025),Table 120.1-A,Educational Facilities,Multiuse assembly,33,title24_design_number,0.33,flat_assumption,,"Communal/multiuse room is the closest category; no GBOBD schedule exists, so phi=1 is an assumption."

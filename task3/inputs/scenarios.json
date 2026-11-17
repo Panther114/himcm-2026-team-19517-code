@@ -1,0 +1,44 @@
+{
+  "equations": {
+    "source": "latest pulled main.tex boxed equation; Task 4 climate.py, checked 2026-11-16",
+    "elasticity_coefficients": [1.27825, -1.79203, -0.01036],
+    "density_fit_range_persons_m2": [0.02, 0.16],
+    "radiation_coefficient": 1.0,
+    "body_height_m": 1.1,
+    "wind_exponent": 0.25,
+    "ideal_AT_C": 23.17,
+    "safe_AT_C": 32.0,
+    "duration_hours": 1.0
+  },
+  "bayfront": {
+    "T_C": 33.0, "RH_percent": 65.0, "wind10_m_s": 2.0,
+    "pressure_Pa": 101325.0, "met": 1.2, "density_persons_m2": 0.61,
+    "latitude": 1.2807, "longitude": 103.8573,
+    "time": "2026-04-15T17:00:00+08:00",
+    "albedo": 0.10, "clearness": 0.45,
+    "flow_angle_deg_from_x": 70.0,
+    "cooler_fan_power_kW": 0.35,
+    "district_COP": 3.7,
+    "district_capacity_kW_thermal": 490.0,
+    "pump_design_flow_L_s": 12.0,
+    "pump_head_kPa": 260.0,
+    "pump_efficiency": 0.70,
+    "published_area_m2": 19770.0,
+    "status": "Climate, occupancy, aiming and solar time are comparison scenarios, not a coincident measured event. 94 points are candidate positions, not an inventory. COP/power/efficiency are assumptions; capacity/head/flow/area are URA inputs."
+  },
+  "medina": {
+    "T_C": 42.0, "RH_percent": 10.0, "wind10_m_s": 6.3,
+    "pressure_Pa": 94200.0, "met": 2.0, "density_persons_m2": 0.65,
+    "latitude": 24.4687, "longitude": 39.6112,
+    "time": "2026-07-15T12:30:00+03:00",
+    "albedo": 0.85, "clearness": 0.61,
+    "flow_angle_deg_from_x": -45.0,
+    "fan_count": 436,
+    "fan_power_kW": 0.23,
+    "water_L_h_per_fan": 100.0,
+    "pump_pressure_bar": 70.0,
+    "pump_efficiency": 0.65,
+    "canopy_radiation_fraction": 0.15,
+    "status": "436 fans sourced to SPA; locations distributed with equal inventory weight over 243 traced columns. Climate, wind direction, 100 L/h per fan, fan power, pump pressure/efficiency and canopy radiation factor are scenario assumptions. Study area is the reconstructed umbrella-covered courtyard subset excluding buildings."
+  }
+}

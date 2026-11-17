@@ -1,0 +1,44 @@
+{
+  "dispatch": {
+    "P_safe": 0.2522941965913686,
+    "H": 31.209595943815145,
+    "U": 1.940742859959407,
+    "E_kWh": 22508.2,
+    "W_m3": 1129.1307813354733,
+    "K_usd": 3149.7474864267497,
+    "capex_usd": 973.204041010827,
+    "CO2": 14.3152152,
+    "CO2_units": "tonnes",
+    "eta": 24.78520996586857,
+    "person_hours": 287452.02389431,
+    "P_safe0": 0.21833435253575054
+  },
+  "constant": {
+    "P_safe": 0.25229681187505604,
+    "H": 31.209594862142545,
+    "U": 2.011709800140021,
+    "E_kWh": 25766.4,
+    "W_m3": 1292.695065046984,
+    "K_usd": 3464.9554697176773,
+    "capex_usd": 973.204041010827,
+    "CO2": 16.3874304,
+    "CO2_units": "tonnes",
+    "eta": 22.442795793679633,
+    "person_hours": 287452.02389431,
+    "P_safe0": 0.21833435253575054
+  },
+  "savings_percent": {
+    "P_safe": 0.0010365900654904707,
+    "H": -3.46583352060826e-06,
+    "U": 3.5276927206734587,
+    "E_kWh": 12.645150273224045,
+    "W_m3": 12.65296728780857,
+    "K_usd": 9.097028404714552,
+    "CO2": 12.645150273224036,
+    "eta": -10.437265453569792
+  },
+  "savings_definition": "100*(constant-dispatch)/constant; null if denominator zero; negative means hourly is larger",
+  "protection_difference_pp": -0.0002615283687446013,
+  "hours": 2928,
+  "note": "Different safety outcomes are reported; savings do not imply equal safety. CO2 in tonnes."
+}

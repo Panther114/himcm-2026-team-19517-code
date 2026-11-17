@@ -1,0 +1,25 @@
+standard,table,section_group,occupancy_category,rp_cfm_person,ra_cfm_ft2,default_density,density_unit,citation_key,note
+ASHRAE 62.1-2022,Table 6-1,Office Buildings,Office space,5,0.06,5,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,Combined OA 17 cfm/person at the default density
+ASHRAE 62.1-2022,Table 6-1,Office Buildings,Reception areas,5,0.06,30,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Office Buildings,Conference / meeting rooms,5,0.06,50,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Office Buildings,Main entry lobbies,5,0.06,10,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Office Buildings,Break rooms,5,0.06,25,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Educational Facilities,"Classrooms (ages 5-8)",10,0.12,25,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,Combined OA 15 cfm/person
+ASHRAE 62.1-2022,Table 6-1,Educational Facilities,Classrooms (age 9 plus),10,0.12,35,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,Combined OA 13 cfm/person
+ASHRAE 62.1-2022,Table 6-1,Educational Facilities,Lecture classroom,7.5,0.06,65,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Educational Facilities,Lecture hall (fixed seats),7.5,0.06,150,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Educational Facilities,Science laboratories,10,0.18,25,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Educational Facilities,Computer lab,10,0.12,25,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Food and Beverage Service,Restaurant dining rooms,7.5,0.18,70,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Food and Beverage Service,Cafeteria / fast-food dining,7.5,0.18,100,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Food and Beverage Service,"Bars, cocktail lounges",7.5,0.18,100,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,"Hotels, Motels, Resorts, Dormitories",Hotel bedroom / living room,5,0.06,10,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,"Hotels, Motels, Resorts, Dormitories",Hotel lobbies / prefunction,7.5,0.06,30,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Public Assembly Spaces,Auditorium seating area,5,0.06,150,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Public Assembly Spaces,Places of religious worship,5,0.06,120,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Public Assembly Spaces,Libraries,5,0.12,10,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Public Assembly Spaces,Museums / galleries,7.5,0.06,40,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Retail,Retail sales floor,7.5,0.12,15,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Retail,Supermarket,7.5,0.06,8,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Retail,Mall common areas,7.5,0.06,40,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,
+ASHRAE 62.1-2022,Table 6-1,Sports and Entertainment,Sports spectator areas,7.5,0.06,150,"#/1000 ft2 or #/100 m2",ASHRAE62_1_2022,

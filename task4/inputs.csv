@@ -1,0 +1,60 @@
+group,key,value,unit,status,source_or_reason
+venue,plaza_area,4705,m2,sourced,OpenStreetMap way 524110885 (polygon area in the local projection)
+venue,roof_area,4500,m2,sourced,Transsolar project page; The Peninsula 2019 (research/venue_candidates.md S4 S6)
+venue,roof_height,30,m,sourced,Transsolar; SBP (research/msheireb_and_validation.md)
+venue,roof_wind_limit,10,m/s,sourced,The Peninsula / Enclos case study: manual extension only below 10 m/s
+venue,roof_policy,closed when sun up and wind below 10 m/s; open otherwise,-,sourced,Transsolar: shades by day and opens at night to release heat
+venue,roof_solar_transmittance,0.15,-,assumed,typical PTFE/ETFE membrane solar transmittance 0.1-0.2; varied 0.05-0.30 in the sensitivity analysis
+venue,ground_albedo,0.35,-,assumed,light stone paving; held fixed in the saved analyses (0.2-0.5 is a proposed sensitivity range)
+venue,building_height_default,25,m,assumed,Msheireb blocks of 8-9 storeys (e-architect); OSM-tagged neighbours 20-25 m
+venue,design_comfort_target,32,degC perceived temperature,sourced,Transsolar design target up to 1.2 m height (equals AT_safe of Task 2b)
+climate,weather,ERA5 hourly 2025-06-01 to 2025-09-30,-,sourced,Open-Meteo archive API (data/weather_doha_2025_JJAS.json)
+climate,season_hours,2928,h,sourced,June to September
+occupancy,hourly_profile,"90,50,20,8,5,10,25,30,30,30,30,35,40,40,40,45,70,110,170,240,280,280,230,160",persons,assumed,evening peak after sunset; low use in the outdoor-work-ban hours 10:00-15:30 (Qatar Ministry of Labour); scaled 0.5-2.0 in the sensitivity analysis
+occupancy,weekend_factor,1.5,-,assumed,Friday and Saturday
+occupancy,edge_share,0.5,-,assumed,mixture share assigned to the 8 m long-edge bands; remaining share is uniform over all cells
+comfort,AT_safe,32,degC,sourced,Task 2b (NWS extreme-caution boundary); equals the venue design target
+comfort,metabolic_rate,1.2,met,sourced,standing (Appendix E of main.tex)
+comfort,elasticity,per cell,-,derived,"eps = exp(1.27825 - 1.79203 m/(m+1) - 0.01036 ln rho) (main.tex checked 2026-11-16), rho clamped to 0.02-0.16; 1.377 at rho = 0.16 and 1.407 at rho = 0.02, m = 1.2"
+comfort,rad_coef,1.0,-,sourced,matches main.tex eq:AT; Q already includes alpha_human = 0.7
+economics,discount_rate,0.031,-,sourced,US OMB Circular A-94 (2023) worked example real rate (research/cost_data.md Section 6)
+economics,install_factor,1.3,-,assumed,installation and wiring as 30 % of equipment price
+economics,electricity_tariff,0.036,USD/kWh,sourced (low confidence),Qatar business tariff 0.13 QAR/kWh via globalpetrolprices (Sep 2025)
+economics,electricity_economic_cost,0.10,USD/kWh,assumed,unsubsidised scenario; varied 0.036-0.15 in the sensitivity analysis
+economics,water_tariff,1.21,USD/m3,sourced (low confidence),Kahramaa flat rate 4.40 QAR/m3 (2015 benchmark)
+economics,grid_carbon,0.636,kg CO2/kWh,sourced (proxy),Ember 2024 Middle East mean; no Qatar value found
+economics,district_cooling_COP,3.7,-,sourced (low confidence),Empower 0.9-1.0 kW/TR (COP 3.5-3.9)
+device_A,name,outdoor fan (650 mm),-,sourced,PIN IMF66 / Human FA-650FW class
+device_A,power,0.26,kW,sourced,PIN IMF66 flyer
+device_A,airflow,2.3,m3/s,sourced,8280 m3/h (flyer); CFD outlet 0.8 x 0.8 m at 1.1-1.9 m
+device_A,price,300,USD,assumed,plain outdoor fan of the misting-fan class without pump (misting variant 499 USD)
+device_A,life,10,years,assumed,no source found
+device_A,maintenance,0.05,fraction of capex per year,assumed,no source found
+device_A,noise_1m,65,dBA,assumed,misting variant 68 dBA (distance not stated)
+device_M,name,misting fan (650 mm),-,sourced,PIN IMF66
+device_M,power,0.26,kW,sourced,PIN IMF66 flyer
+device_M,water,5,L/h,sourced,PIN IMF66 flyer (catalogue 4.55)
+device_M,price,499,USD,sourced (low confidence),BAR Group catalogue 2024
+device_M,life,7,years,assumed,no source found
+device_M,maintenance,0.10,fraction of capex per year,assumed,nozzles and water treatment
+device_M,noise_1m,68,dBA,sourced,PIN IMF66 flyer (distance not stated; taken as 1 m)
+device_E,name,industrial evaporative cooler,-,sourced,18000 m3/h class
+device_E,power,1.1,kW,sourced,several suppliers (research/cost_data.md 1.2)
+device_E,airflow,5.0,m3/s,sourced,18000 m3/h
+device_E,supply_drop,min(8; 0.8 (T - Twb)),K,derived,Task 2a wet-bulb cap with sigma_ec = 0.8 and the 8 K rating of System C
+device_E,water,from evaporation,L/h,derived,rho V d(omega); vendor figure 15-20 L/h
+device_E,price,385,USD,sourced (low confidence),FOB bulk price 378-394 USD
+device_E,life,8,years,assumed,no source found
+device_E,maintenance,0.10,fraction of capex per year,assumed,pads and water treatment
+device_E,noise_1m,68,dBA,assumed,same class as misting fan
+device_D,name,chilled-air unit on district cooling,-,assumed,analog of the Msheireb cool pools (district cooled)
+device_D,airflow,1.57,m3/s,assumed,analog of the Bayfront outdoor cooler (490 kWr / 30 units)
+device_D,supply_temperature,16-24,degC,assumed,design variable; RH 90 % at supply
+device_D,fan_power,0.5,kW,assumed,air handler fan
+device_D,cooling_electricity,cooling load / COP,kW,derived,district-cooling COP 3.7
+device_D,price_per_kW_cooling,755,USD per kW cooling,derived (low confidence),3-ton spot cooler 7925 USD / 10.5 kW (hvacdirect)
+device_D,design_capacity,38,kW cooling,derived,1.2 x 1006 x 1.57 x 20 K
+device_D,life,15,years,assumed,no source found
+device_D,maintenance,0.04,fraction of capex per year,assumed,no source found
+device_D,noise_1m,68,dBA,sourced (proxy),3-ton spot cooler 68-70 dBA (distance not stated)
+noise,screening_limit,65,dBA at occupied cells,assumed,screening value above typical urban plaza ambient; WHO 1999 outdoor living-area guideline 55 dBA reported for reference
